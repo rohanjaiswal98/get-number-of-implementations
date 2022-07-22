@@ -15,7 +15,7 @@ public class MyApp {
             System.out.println("Total number of implementations for " + classPath + " : " +
                     context.getBeanNamesForType(Class.forName(classPath)).length);
         } catch (ClassNotFoundException e) {
-            System.out.println("Invalid Classpath!");
+            System.out.println("Invalid Classpath! Please try again.");
         }
         finally {
             context.close();
