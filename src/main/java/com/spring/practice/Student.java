@@ -1,8 +1,10 @@
 package com.spring.practice;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
+@Lazy
 public class Student implements Person {
     private String name;
     private int id;

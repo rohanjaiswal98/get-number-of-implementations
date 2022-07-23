@@ -1,9 +1,11 @@
 package com.spring.practice;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 
 @Component
+@Lazy
 @SuppressWarnings("unused")
 public class Customer implements Person {
     private String name;
