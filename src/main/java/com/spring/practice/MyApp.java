@@ -1,9 +1,7 @@
 package com.spring.practice;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.util.SystemPropertyUtils;
 
-import java.util.Properties;
 import java.util.Scanner;
 
 public class MyApp {
